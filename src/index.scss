@@ -5,7 +5,7 @@ body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #6a5be2;
+  background-color:  teal;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,6 +21,23 @@ body {
 
   .result {
     text-align: center;
+
+    .play {
+      background-color: #ff006e;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      padding: 15px 30px;
+      border-radius: 20px;
+      transition: background-color 0.3s ease-in-out;
+      margin-top: 20px;
+    }
+
+
+    .play:hover {
+      background-color: darken(#ff006e, 10%);
+    }
 
     button {
       font-weight: bold;
@@ -104,7 +121,9 @@ body {
 
       &:hover {
         border: 2px solid rgba(0, 0, 0, 0.3);
+
       }
+
     }
   }
 }
