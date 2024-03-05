@@ -4,7 +4,7 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #edf6f9;
+  background-color: khaki;
 }
 
 .App {
@@ -38,25 +38,25 @@ body {
     background: transparent;
     border: 2px solid transparent;
     text-align: center;
-    font-size: 22px;
-    border-radius: 15px;
-    padding: 10px 25px;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 15px 40px;
     cursor: pointer;
     margin: 0 10px;
     transition: all 0.05s ease-in-out;
 
     &.minus {
-      background-color: #e63946;
+      background-color: steelblue;
       color: #fff;
-      box-shadow: 0 4px 0 darken(#e63946, 10%);
-      border: 1px solid darken(#e63946, 15%);
+      box-shadow: 0 4px 0 darken(steelblue, 10%);
+      border: 1px solid darken(steelblue, 15%);
     }
 
     &.plus {
-      background-color: #2a9d8f;
+      background-color: sandybrown;
       color: #fff;
-      box-shadow: 0 4px 0 darken(#2a9d8f, 10%);
-      border: 1px solid darken(#2a9d8f, 15%);
+      box-shadow: 0 4px 0 darken(sandybrown, 10%);
+      border: 1px solid darken(sandybrown, 15%);
     }
 
     &:hover {
