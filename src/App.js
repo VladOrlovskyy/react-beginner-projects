@@ -1,5 +1,5 @@
 import './index.scss';
-import React from "react";
+import React from "react"; //j
 
 const questions = [
     {
